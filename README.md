@@ -1,5 +1,5 @@
 # Challonge-API-Form
-This form is built with C# as a means to learn how to build API Callers.
+This form is built with C# as a means to learn how to build API Callers.  This program is made with REST APIs in mind.
 
 # What Can It Do Now?
 Any sort of request can be made to Challonge.com to Get, Post, Put or Delete information from one's own account.  
