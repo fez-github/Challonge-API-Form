@@ -1,0 +1,3 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Matches_Index,Retrieve a tournament's match list.,https://api.challonge.com/v1,tournaments/{tournament}/matches,GET,state,"all (default), pending, open, complete"
+,,,,,participant_id,Only retrieve matches that include the specified participant.

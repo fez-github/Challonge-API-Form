@@ -1,0 +1,2 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Participants_Clear,Deletes all participants in a tournament. (Only allowed if tournament hasn't started yet),https://api.challonge.com/v1,tournaments/{tournament}/participants/clear,DELETE,,

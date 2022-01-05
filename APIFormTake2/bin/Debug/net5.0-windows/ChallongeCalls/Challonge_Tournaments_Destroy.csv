@@ -1,0 +1,2 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Tournaments_Destroy,"Deletes a tournament along with all its associated records. There is no undo, so use with care!",https://api.challonge.com/v1,tournaments/{tournament},GET,,

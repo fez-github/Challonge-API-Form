@@ -1,0 +1,3 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Tournaments_AbortCheckIns,When your tournament is in a 'checking_in' or 'checked_in' state; there's no way to edit the tournament's start time (start_at) or check-in duration (check_in_duration). You must first abort check-in; then you may edit those attributes.  1. Makes all participants active and clears their checked_in_at times.  2. Transitions the tournament state from 'checking_in' or 'checked_in' to 'pending',https://api.challonge.com/v1,tournaments/{tournament}/abort_check_ins,POST,include_participants,0 or 1; includes an array of associated participant records
+,,,,,include_matches,0 or 1; includes an array of associated match records

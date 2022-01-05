@@ -4,7 +4,7 @@
     <Compile Update="URLForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form2.cs">
+    <Compile Update="APIEntry.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

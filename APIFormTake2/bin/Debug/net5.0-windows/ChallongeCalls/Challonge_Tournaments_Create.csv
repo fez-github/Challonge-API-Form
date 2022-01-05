@@ -1,0 +1,30 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Tournaments_Create,Create a new tournament.,https://api.challonge.com/v1,tournaments,POST,tournament[name],Your event's name/title (Max: 60 characters)
+,,,,,tournament[tournament_type],Single elimination (default); double elimination; round robin; swiss
+,,,,,tournament[url],challonge.com/url (letters; numbers; and underscores only); when blank on create; a random URL will be generated for you
+,,,,,tournament[subdomain],subdomain.challonge.com/url (Requires write access to the specified subdomain)
+,,,,,tournament[description],Description/instructions to be displayed above the bracket
+,,,,,tournament[open_signup],True or false. Have Challonge host a sign-up page (otherwise; you manually add all participants)
+,,,,,tournament[hold_third_place_match],True or false - Single Elimination only. Include a match between semifinal losers? (default: false)
+,,,,,tournament[pts_for_match_win],Decimal (to the nearest tenth) - Swiss only - default: 1.0
+,,,,,tournament[pts_for_match_tie],Decimal (to the nearest tenth) - Swiss only - default: 0.5
+,,,,,tournament[pts_for_game_win],Decimal (to the nearest tenth) - Swiss only - default: 0.0
+,,,,,tournament[pts_for_game_tie],Decimal (to the nearest tenth) - Swiss only - default: 0.0
+,,,,,tournament[pts_for_bye],Decimal (to the nearest tenth) - Swiss only - default: 1.0
+,,,,,tournament[swiss_rounds],Integer - Swiss only - We recommend limiting the number of rounds to less than two-thirds the number of players. Otherwise; an impossible pairing situation can be reached and your tournament may end before the desired number of rounds are played.
+,,,,,tournament[ranked_by],One of the following: 'match wins'; 'game wins'; 'points scored'; 'points difference'; 'custom' Help
+,,,,,tournament[rr_pts_for_match_win],"Decimal (to the nearest tenth) - Round Robin ""custom only"" - default: 1.0"
+,,,,,tournament[rr_pts_for_match_tie],"Decimal (to the nearest tenth) - Round Robin ""custom"" only - default: 0.5"
+,,,,,tournament[rr_pts_for_game_win],"Decimal (to the nearest tenth) - Round Robin ""custom"" only - default: 0.0"
+,,,,,tournament[rr_pts_for_game_tie],"Decimal (to the nearest tenth) - Round Robin ""custom"" only - default: 0.0"
+,,,,,tournament[accept_attachments],True or false - Allow match attachment uploads (default: false)
+,,,,,tournament[hide_forum],True or false - Hide the forum tab on your Challonge page (default: false)
+,,,,,tournament[show_rounds],True or false - Single &amp; Double Elimination only - Label each round above the bracket (default: false)
+,,,,,tournament[private],True or false - Hide this tournament from the public browsable index and your profile (default: false)
+,,,,,tournament[notify_users_when_matches_open],True or false - Email registered Challonge participants when matches open up for them (default: false)
+,,,,,tournament[notify_users_when_the_tournament_ends],True or false - Email registered Challonge participants the results when this tournament ends (default: false)
+,,,,,tournament[sequential_pairings],True or false - Instead of traditional seeding rules; make pairings by going straight down the list of participants. First round matches are filled in top to bottom; then qualifying matches (if applicable). (default: false)
+,,,,,tournament[signup_cap],Integer - Maximum number of participants in the bracket. A waiting list (attribute on Participant) will capture participants once the cap is reached.
+,,,,,tournament[start_at],Datetime - the planned or anticipated start time for the tournament (Used with check_in_duration to determine participant check-in window). Timezone defaults to Eastern.
+,,,,,tournament[check_in_duration],Integer - Length of the participant check-in window in minutes.
+,,,,,tournament[grand_finals_modifier],String - This option only affects double elimination. null/blank (default) - give the winners bracket finalist two chances to beat the losers bracket finalist; 'single match' - create only one grand finals match; 'skip' - don't create a finals match between winners and losers bracket finalists

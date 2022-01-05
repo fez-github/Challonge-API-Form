@@ -1,0 +1,2 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Participants_Show,Retrieve a single participant record for a tournament.,https://api.challonge.com/v1,tournaments/{tournament}/participants/{participant_id},GET,include_matches,0 or 1; includes an array of associated match records

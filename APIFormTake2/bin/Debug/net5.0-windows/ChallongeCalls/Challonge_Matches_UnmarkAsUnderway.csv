@@ -1,0 +1,2 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Matches_UnmarkAsUnderway,"Clears ""underway_at"" and unhighlights the match in the bracket",https://api.challonge.com/v1,tournaments/{tournament}/matches/{match_id}/unmark_as_underway,POST,,

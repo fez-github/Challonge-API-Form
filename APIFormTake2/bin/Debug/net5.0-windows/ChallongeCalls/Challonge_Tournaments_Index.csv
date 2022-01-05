@@ -1,0 +1,6 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Tournaments_Index,Retrieve a set of tournaments created with your account.,https://api.challonge.com/v1,tournaments,GET,state,all; pending; in_progress; ended
+,,,,,type,single elimination; double elimination; round robin; swiss
+,,,,,created_after,YYYY-MM-DD
+,,,,,created_before,YYYY-MM-DD
+,,,,,subdomain,A Challonge subdomain you've published tournaments to. NOTE: Until v2 of our API; the subdomain parameter is required to retrieve a list of your organization-hosted tournaments.

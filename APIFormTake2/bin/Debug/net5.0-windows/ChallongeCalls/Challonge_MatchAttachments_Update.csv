@@ -1,0 +1,4 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+MatchAttachments_Update,Update the attributes of a match attachment.,https://api.challonge.com/v1,tournaments/{tournament}/matches/{match_id}/attachments/{attachment_id},PUT,match_attachment[asset],A file upload (250KB max; no more than 4 attachments per match). If provided; the url parameter will be ignored.
+,,,,,match_attachment[url],A web URL
+,,,,,match_attachment[description],Text to describe the file or URL attachment; or this can simply be standalone text.

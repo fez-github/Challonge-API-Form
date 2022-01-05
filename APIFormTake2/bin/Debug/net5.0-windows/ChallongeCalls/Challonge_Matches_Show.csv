@@ -1,0 +1,2 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Matches_Show,Receive a single match record for a tournament.,https://api.challonge.com/v1,tournaments/{tournament}/matches/{match_id},GET,include_attachments,0 or 1; include an array of associated attachment records

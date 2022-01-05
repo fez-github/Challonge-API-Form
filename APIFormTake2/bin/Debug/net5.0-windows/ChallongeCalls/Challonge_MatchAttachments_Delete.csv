@@ -1,0 +1,2 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+MatchAttachments_Delete,Delete a match attachment.,https://api.challonge.com/v1,tournaments/{tournament}/matches/{match_id}/attachments/{attachment_id},DELETE,,

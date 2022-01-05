@@ -1,0 +1,2 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Participants_Randomize,Randomize seeds among participants. Only applicable before a tournament has started.,https://api.challonge.com/v1,tournaments/{tournament}/participants/randomize,POST,,

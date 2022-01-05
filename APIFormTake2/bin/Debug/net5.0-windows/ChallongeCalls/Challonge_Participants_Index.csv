@@ -1,0 +1,2 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Participants_Index,Add a participant to a tournament (up until it is started).,https://api.challonge.com/v1,tournaments/{tournament}/participants,GET,,

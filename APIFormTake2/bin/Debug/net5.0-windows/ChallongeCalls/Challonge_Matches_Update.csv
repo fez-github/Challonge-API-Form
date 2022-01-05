@@ -1,0 +1,5 @@
+﻿Call Name,Call Description,Call URL,Call Resource,Call Method,Parameter Name,Parameter Description
+Matches_Update,Update/submit the score(s) for a match.,https://api.challonge.com/v1,tournaments/{tournament}/matches/{match_id},PUT,match[scores_csv],"Comma separated set/game scores with player 1 score first (e.g. ""1-3;3-0;3-2"")"
+,,,,,match[winner_id],"The participant ID of the winner or ""tie"" if applicable (Round Robin and Swiss). NOTE: If you change the outcome of a completed match; all matches in the bracket that branch from the updated match will be reset."
+,,,,,match[player1_votes],Overwrites the number of votes for player 1
+,,,,,match[player2_votes],Overwrites the number of votes for player 2
