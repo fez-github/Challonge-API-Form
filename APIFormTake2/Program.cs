@@ -14,10 +14,13 @@ namespace APIFormTake2
         [STAThread]
         static void Main()
         {
+            
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new URLForm());
+            //Application.Run(new URLForm());
+            Application.Run(new GenericForm());
+            
         }
     }
 }
